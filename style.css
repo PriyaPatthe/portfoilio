@@ -331,7 +331,7 @@ header .follow a:hover
 
 
 /* media queries */
-@media (max-width: 991px)
+@media (max-width: 1000px)
 {
     html 
     {
@@ -357,7 +357,10 @@ header .follow a:hover
     {
         display: none;
     }
-    
+     .about .row-1
+     {
+        flex-flow: column;
+     }
   
 }
 @media (max-width: 700px)
