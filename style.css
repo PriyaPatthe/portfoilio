@@ -102,6 +102,7 @@ header .follow a:hover
     border-radius: .5rem;
     font-size: 3rem;
     cursor: pointer;
+    display: none;
 }
 
 
@@ -220,6 +221,114 @@ header .follow a:hover
     
 }
 
+.about .row-1
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    
+        flex-wrap: wrap;
+    
+}
+.about .row-1 .image 
+{
+    flex:1 1 14rem;
+}
+
+.about .row-1 .image img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border:1rem solid #fff;
+    /* border-radius: 11.5rem; */
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.35);
+}
+
+.about .row-1 .content 
+{
+    flex: 1 1 20rem;
+}
+
+
+.about .row-1 .content h3
+{
+    color: #333;
+    font-size: 3.0rem;
+    padding: 0.5rem 5rem;
+}
+
+.about .row-1 .content p
+{
+    color: #666;
+    font-size: 1.7rem;
+    padding: .7rem 0;
+}
+
+.about .row-1 .content .box-container 
+{
+   
+    padding: 0.5rem 5rem;
+}
+
+.about .row-1 .content .box-container .box 
+{
+    flex: 1 1 20rem;
+}
+
+
+
+.service .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1.5%;
+}
+.service .box-container .box 
+{
+    flex: 1 1 20rem;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, 0.55);
+    
+}
+.service .box-container .box img
+{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+.service .box-container .box i 
+{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+.service .box-container .box h3 
+{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+.service .box-container .box p
+{
+    color: #555;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
 
 /* media queries */
 @media (max-width: 991px)
@@ -248,6 +357,16 @@ header .follow a:hover
     {
         display: none;
     }
+    
+  
+}
+@media (max-width: 700px)
+{
+    .about .row-1 .image img 
+    {
+        border-radius: .5rem;
+    }
+   
 }
 @media (max-width: 450px)
 {
@@ -259,5 +378,10 @@ header .follow a:hover
     {
         width: 100%;
     }
-
+    .about .row-1 .image img 
+    {
+        border-radius: .5rem;
+    }
+   
+    
 }
