@@ -234,7 +234,7 @@ header .follow a:hover
 }
 .about .row-1 .image 
 {
-    flex:1 1 24rem;
+    flex:1 1 14rem;
 }
 
 .about .row-1 .image img 
@@ -256,8 +256,8 @@ header .follow a:hover
 .about .row-1 .content h3
 {
     color: #333;
-    font-size: 3.0rem;
-    padding: 0.3rem 5rem;
+    font-size: 2.9rem;
+    padding: 0.3rem 4rem;
 }
 
 .about .row-1 .content p
@@ -270,7 +270,7 @@ header .follow a:hover
 .about .row-1 .content .box-container 
 {
    
-    padding: 0.3rem 5rem;
+    padding: 0.3rem 4rem;
 }
 
 .about .row-1 .content .box-container .box 
