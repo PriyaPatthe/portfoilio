@@ -234,13 +234,13 @@ header .follow a:hover
 }
 .about .row-1 .image 
 {
-    flex:1 1 24rem;
+    flex:1 1 14rem;
 }
 
 .about .row-1 .image img 
 {
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: fill;
     border:1rem solid #fff;
     /* border-radius: 11.5rem; */
