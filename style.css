@@ -328,6 +328,57 @@ header .follow a:hover
     font-size: 1.7rem;
     padding-top: 1rem;
 }
+/* projects */
+.project .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1.5%;
+}
+.project .box-container .box 
+{
+    flex: 1 1 20rem;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, 0.55);
+    
+}
+.project .box-container .box img
+{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+.project .box-container .box i 
+{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+.project .box-container .box h3 
+{
+    color: #fff;
+    background: var(--main-color);
+    font-size: 2.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.project .box-container .box p
+{
+    color: #555;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
 
 
 /* media queries */
